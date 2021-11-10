@@ -1,0 +1,25 @@
+{
+  "name": "devportfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio to showcase work",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdbow22/devPortfolio.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mdbow22/devPortfolio/issues"
+  },
+  "homepage": "https://github.com/mdbow22/devPortfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.14"
+  }
+}
