@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-#hero-image {
-    clip-path: polygon(33% 0, 100% 0%, 100% 100%, 0% 100%);
+.section-decoration {
+    clip-path: polygon(0% 0%, 100% 0%, calc(100% - 40px) 100%, 0% 100%);
+}
+
+@media screen and (min-width: 768px) {
+    #hero-image {
+        clip-path: polygon(33% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
 }
