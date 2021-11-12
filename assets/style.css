@@ -2,8 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
+#nav-toggle {
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    
+  }
+  
+  #nav-toggle span {
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    @apply bg-blue-50;
+    border-radius: 5px;
+    left: 0;
+    transition: all 500ms ease;
+  }
+  
+  #nav-toggle span:nth-child(1) {
+    top: 0px;
+  }
+  
+  #nav-toggle span:nth-child(2) {
+    top: 10px;
+  }
+  
+  #nav-toggle span:nth-child(3) {
+    top: 20px;
+  }
+
 .section-decoration {
     clip-path: polygon(0% 0%, 100% 0%, calc(100% - 40px) 100%, 0% 100%);
+}
+
+#about .card-link::before {
+    @apply bg-blue-50;
+    width: 0%;
+    height: 100%;
+    transition: width 150ms ease-in-out;
+}
+
+#about .card-link:hover::before {
+    width: 100%;
+}
+
+#about .card-link:hover {
+    @apply text-gray-700;
+}
+
+.card-link {
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.card-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    transition: height 100ms ease-in-out;
+    @apply bg-gray-500;
+    z-index: -1;
+}
+
+.card-link:hover::before {
+    height: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,4 +84,3 @@
     }
 
 }
-
