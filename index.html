@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <title>Matt Bow</title>
+  <link rel="stylesheet" href="/devPortfolio/assets/index.a2b2ebcd.css">
+</head>
+<body class="bg-gray-900 text-blue-50">
+    <div class="max-w-screen-lg mx-auto">
+        <header class="uppercase mx-6">
+            <nav class="relative flex flex-col sm:flex-row sm:justify-between mt-4 bg-gray-700 text-xl">
+                <div class="sm:hidden px-6 font-semibold py-3 flex justify-between">
+                    <h3></h3>
+                    <button id="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </button>
+                </div>
+                <div id="menu-list" class="hidden sm:block bg-gray-700 absolute top-16 w-full sm:relative sm:w-auto sm:top-0">
+                    <ul id="menu-items" class="w-full sm:w-auto h-full flex sm:relative sm:top-0 flex-col sm:flex-row items-stretch justify-center font-semibold">
+                        <li class="border-b border-gray-500 sm:border-0 p-3 px-6 card-link"><a class="inline-block h-full w-full" href="#about">About</a></li>
+                        <li class="border-b border-gray-500 sm:border-0  p-3 px-6 card-link"><a class="inline-block h-full w-full"  href="#projects">Projects</a></li>
+                        <li class="border-b border-gray-500 sm:border-0  p-3 px-6 card-link"><a class="inline-block h-full w-full"  href="#connect">Connect</a></li>
+                    </ul>
+                </div>
+                
+                <ul class="px-6 hidden sm:flex justify-between items-center gap-4">
+                    <li><a href="https://github.com/mdbow22" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/matthew-bow-5525895a/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="mailto:mdbow22@gmail.com"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </nav>
+            <div id="hero" class="flex flex-col-reverse md:flex-row md:justify-between align-middle my-14 bg-gray-700 max-w-screen-lg">
+                <div id="hero-content" class="flex flex-col justify-center text-3xl py-10 px-6">
+                    <h2>I'm</h2>
+                    <h1 class="text-blue-200 font-bold text-5xl tracking-wider">Matt Bow</h1>
+                    <h2>A Full-Stack Developer</h2>
+                </div>
+                <div id="hero-image" class="md:w-3/4">
+                    <img class="inset-0 h-72 w-full md:w-full md:h-full object-cover" src="/devPortfolio/assets/profileImage.4fa4140d.jpg">
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="about" class="mx-6 my-10">
+                <div class="border-2 bg-gray-700 border-gray-700 flex justify-between items-stretch">
+                    <h2 class="section-decoration pl-6 py-2 pr-14 text-4xl bg-gray-900">About</h2>
+                </div>
+                <div class="mt-2 md:grid md:grid-cols-2 md:gap-4 flex flex-col">
+                    <div class="px-6 py-4 mt-4 md:mb-4 bg-gray-700 text-xl flex flex-col justify-center">
+                        <p class="leading-8 mb-6">
+                            From linguist to financial strategist to full-stack developer, I have always been passionate about syntheizing data and working with the latest tech. Let's work together and create something meaningful.
+                        </p>
+                        <div>
+                            <a class="card-link border-2 border-blue-50 p-2 mb-2 inline-block" href="./assets/resume.pdf" target="_blank">Résumé</a>
+                        </div>
+                        
+                    </div>
+                    <div class="my-4 py-4 text-xl flex flex-col justify-center">
+                        <!-- <h3 class="md:hidden mb-6 pl-6 text-2xl font-semibold">Skills</h3> -->
+                        <ul class="flex gap-10 flex-wrap justify-around px-6 align-middle">
+                            <li class="border-2 border-blue-50 p-2">HTML5</li>
+                            <li class="border-2 border-blue-50 p-2">CSS3</li>
+                            <li class="border-2 border-blue-50 p-2">JavaScript</li>
+                            <li class="border-2 border-blue-50 p-2">Node</li>
+                            <li class="border-2 border-blue-50 p-2">Express</li>
+                            <li class="border-2 border-blue-50 p-2">MySQL</li>
+                            <li class="border-2 border-blue-50 p-2">MongoDB</li>
+                            <li class="border-2 border-blue-50 p-2">React</li>
+                            <li class="border-2 border-blue-50 p-2">Tailwind</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="mx-6 my-10 ">
+                <div class="bg-gray-700 border-2 border-gray-700 flex justify-between items-stretch">
+                    <h2 class="section-decoration pl-4 py-2 pr-14 text-4xl bg-gray-900">Projects</h2>
+                </div>
+                <div id="proj-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
+                    <article class="card mt-4 pt-2 bg-gray-700 flex flex-col items-stretch">
+                        <div class="card-head">
+                            <h3 class="text-2xl text-center">I Choose Who?</h3>
+                        </div>
+                        <div class="card-body px-6 pb-2 mb-2">
+                            <div class="card-image py-4">
+                                <img class="w-11/12 block mx-auto md:w-full md:mx-0" src="/devPortfolio/assets/iChooseWhoScrnShot-32.0a0b750c.png" alt="screenshot of I Choose Who? App">
+                            </div>
+                            <div class="card-content">
+                                <ul class="flex flex-wrap gap-4 justify-between text-xl">
+                                    <li>Node</li>
+                                    <li>Express</li>
+                                    <li>Sequelize</li>
+                                    <li>Bulma</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer grid grid-cols-2 mt-auto border-t-2 border-gray-500">
+                            <a class="card-link py-2 text-center text-2xl border-r-2 border-gray-500" href="https://blooming-basin-23447.herokuapp.com/" target="_blank">Demo</a>
+                            <a class="card-link py-2 text-center text-2xl" href="https://github.com/mdbow22/I-Choose-Who" target="_blank">Repo</a>
+                        </div>
+                    </article>
+                    <article class="card mt-4 pt-2 bg-gray-700 flex flex-col items-stretch">
+                        <div class="card-head">
+                            <h3 class="text-2xl text-center">National Parks Explorer</h3>
+                        </div>
+                        <div class="card-body px-6 pb-2 mb-2">
+                            <div class="card-image py-4">
+                                <img class="w-11/12 block mx-auto md:w-full md:mx-0" src="/devPortfolio/assets/npsExplorerSrnShot-32.b01c5661.png" alt="screenshot of NPS Explorer App">
+                            </div>
+                            <div class="card-content">
+                                <ul class="flex flex-wrap gap-4 justify-between text-xl">
+                                    <li>HTML5</li>
+                                    <li>Materialize</li>
+                                    <li>NPS API</li>
+                                    <li>Vanilla JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer grid grid-cols-2 mt-auto border-t-2 border-gray-500">
+                            <a class="card-link py-2 text-center text-2xl border-r-2 border-gray-500" href="https://mdbow22.github.io/Project-One/" target="_blank">Demo</a>
+                            <a class="card-link py-2 text-center text-2xl" href="https://github.com/mdbow22/Project-One" target="_blank">Repo</a>
+                        </div>
+                    </article>
+                    <article class="card pt-2 bg-gray-700 flex flex-col items-stretch">
+                        <div class="card-head">
+                            <h3 class="text-2xl text-center">Tech Blog</h3>
+                        </div>
+                        <div class="card-body px-6 mb-2">
+                            <div class="card-image py-4">
+                                <img class="w-11/12 block mx-auto md:w-full md:mx-0" src="/devPortfolio/assets/techBlogScrnShot-32.4669fbaa.png" alt="screenshot of blog app">
+                            </div>
+                            <div class="card-content pb-2">
+                                <ul class="flex flex-wrap gap-4 justify-between text-xl">
+                                    <li>Node</li>
+                                    <li>Express</li>
+                                    <li>Sequelize</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer grid grid-cols-2 mt-auto mb-0 border-t-2 border-gray-500">
+                            <a class="card-link py-2 text-center text-2xl border-r-2 border-gray-500" href="https://blooming-sea-91213.herokuapp.com/" target="_blank">Demo</a>
+                            <a class="card-link py-2 text-center text-2xl" href="https://github.com/mdbow22/tech_blog" target="_blank">Repo</a>
+                        </div>
+                    </article>
+                    <article class="relative card pt-2 bg-gray-700 flex flex-col items-stretch">
+                        <div class="card-head">
+                            <h3 class="text-2xl text-center">WeatherBoard</h3>
+                        </div>
+                        <div class="card-body pb-2 px-6 mb-2">
+                            <div class="card-image py-4">
+                                <img class="w-11/12 block mx-auto md:w-full md:mx-0" src="/devPortfolio/assets/weatherBoardScrnShot-32.c53873a0.png" alt="screenshot of weatherBoard app">
+                            </div>
+                            <div class="card-content">
+                                <ul class="flex flex-wrap gap-4 justify-between text-xl">
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Vanilla JS</li>
+                                    <li>OpenWeather API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer grid grid-cols-2 mt-auto border-t-2 border-gray-500">
+                            <a class="card-link py-2 text-center text-2xl border-r-2 border-gray-500" href="https://mdbow22.github.io/weatherBoard/" target="_blank">Demo</a>
+                            <a class="card-link py-2 text-center text-2xl" href="https://github.com/mdbow22/weatherBoard" target="_blank">Repo</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="connect" class="mx-6 my-10">
+                <div class="border-2 border-gray-700 bg-gray-700 flex justify-between items-stretch">
+                    <h2 class="section-decoration pl-4 py-2 pr-14 text-4xl bg-gray-900">Connect</h2>
+                </div>
+                <div class="flex text-4xl justify-around mt-8 flex-wrap gap-10">
+                    <a href="https://github.com/mdbow22" target="_blank"><i class="fab fa-github"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/matthew-bow-5525895a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> 
+                    <a href="mailto:mdbow22@gmail.com"><i class="far fa-envelope"></i> Email</a>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    
+    <script src="./assets/main.js"></script>
+</body>
+</html>
